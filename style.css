@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+header{
+  background-color: white;
+  height: 200px;
+  margin: 30px;
+}
+
+.box{
+  height: 100%;
+}
+
+aside .box{
+  background-color: white;
+}
+
+
+main{
+  width: 60%;
+  height: 500px;
+  padding: 30px;
+  float: left;
+}
+
+
+aside{
+  width: 20%;
+  height: 250px;
+  padding: 30px;
+  float: left;
+}
+
+main .box{
+  background-color: white;
+}
+
+footer{
+  background-color: white;
+  height: 100px;
+  margin: 30px;
+}
